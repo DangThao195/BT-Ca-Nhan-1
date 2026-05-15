@@ -58,18 +58,20 @@ Lambda
 Measured values:
 
 ```txt
-Init Duration: 138.38 ms
-Duration: 49.36 ms
+Init Duration: 339.09 ms	
+Duration: 148.09 ms
 ```
 
 Results:
 
 | Type | Measured Time |
 |---|---|
-| Cold Start | ~49.36 ms |
-| Warm Request | ~1.80 ms |
+| Cold Start | ~148 ms |
+| Warm Request | ~17.78 ms |
 
 Observation:
 
 - Cold start performance is acceptable for a lightweight Node.js + Express application.
 - Warm requests are significantly faster because the Lambda execution environment is reused.
+
+![alt text](image.png)

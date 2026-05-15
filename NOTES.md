@@ -58,16 +58,16 @@ Lambda
 Measured values:
 
 ```txt
-Init Duration: 432.15 ms
-Duration: 24.91 ms
+Init Duration: 138.38 ms
+Duration: 49.36 ms
 ```
 
 Results:
 
 | Type | Measured Time |
 |---|---|
-| Cold Start | ~432 ms |
-| Warm Request | ~25 ms |
+| Cold Start | ~49.36 ms |
+| Warm Request | ~1.80 ms |
 
 Observation:
 
